@@ -1,9 +1,32 @@
+
+
 *{
 margin: 0;
 padding: 0;
-width: 67.5em;
-height: 37.5em;
+font-size: 25px;
 }
 body{
+   
     background-color: #fefefe;
+    background-image: url(../Css/img-user/fundo-placa-mae.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;text-align: center;
+    color: white;
+    font-family: "Trirong", serif;
+
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.nav li{
+
+    display: inline-block;
+}
+.nav a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2,2em;
 }
